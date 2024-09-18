@@ -1,0 +1,23 @@
+Overview
+This web application allows users to manage and configure connectors to various providers such as AWS, Azure, Google Cloud, etc. 
+It provides a dashboard where users can view, create, and configure connectors and connector types.
+
+Entities
+Connector
+A Connector represents a configuration for connecting to different providers
+
+Dashboard
+The Dashboard shows a table of all created connectors, (displays the name, status, and description) There is an option to sort by name or by status.
+There is a button to create a connector that takes you to the types list page
+
+Type List Page
+Shows all The Connector Type and sort by categories and name
+
+Create Connector
+clients can create new connectors via:
+Page: A dedicated page for connector creation.
+
+Technologies Used
+Frontend: [React JS, MUI]
+Backend: [Node JS]
+Database: [Mongo DB]
